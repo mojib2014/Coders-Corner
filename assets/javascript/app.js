@@ -191,7 +191,7 @@ $("#goBtn").on("click", function (event) {
 $(document).on("click", ".joinButtons", function (event) {
   event.preventDefault();
 
-  var chatLink = "http://deadsimplechat.com/CodersCorner" + $(this).val();
+  var chatLink = "https://deadsimplechat.com/CodersCorner" + $(this).val();
   $("iframe").attr("src", chatLink);
   $("#chatroom").removeClass("d-none");
 });
